@@ -145,11 +145,9 @@ function pathIntersection(wires)
 end
 
 function e3_1(wires)
-    println("Part 1:")
-    println(manhattanIntersection(wires))
+    manhattanIntersection(wires)
 end
 
 function e3_2(wires)
-    println("Part 2:")
-    println(pathIntersection(wires))
+    pathIntersection(wires)
 end

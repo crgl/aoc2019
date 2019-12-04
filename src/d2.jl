@@ -4,8 +4,7 @@ function e2_1(args)
     localArgs = deepcopy(args)
     localArgs[2] = 12
     localArgs[3] = 2
-    println("Part 1:")
-    println(runProgram(localArgs))
+    runProgram(localArgs)
 end
 
 function e2_2(args)
@@ -14,11 +13,10 @@ function e2_2(args)
         localArgs[2] = i
         localArgs[3] = j
         if runProgram(localArgs) == 19690720
-            println("Part 2:")
-            println(i * 100 + j)
-            break
+            return i * 100 + j
         end
     end
+    0
 end
 
 function runProgram(args)

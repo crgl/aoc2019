@@ -16,11 +16,9 @@ sumFuelCareful(masses) = sum(map(x -> addFuel(x), masses));
 
 
 function e1_1(masses)
-    println("Part 1:")
-    println(sumFuelCareful(masses))
+    sumFuel(masses)
 end
 
 function e1_2(masses)
-    println("Part 2:")
-    println(sumFuel(masses))
+    sumFuelCareful(masses)
 end
