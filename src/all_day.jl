@@ -1,4 +1,4 @@
-for day in 1:3
+for day in 1:4
     println("Day $(day)")
     src = "d$(day).jl"
     inputData = "data/d$(day).txt"
