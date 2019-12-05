@@ -2,7 +2,7 @@
 
 ## To run
 
-Use Julia to run the file `all_day.jl`. This won't work at the moment due to a bold look into hardcoding paths and my own file organization, so there's no need to go into too much detail about it
+Use Julia to run the file `all_day.jl` from the root of the repository. Equally, include the file from the REPL.
 
 ## Notes so far
 
