@@ -57,7 +57,7 @@ function runProgram7(args, input, output)
             args[args[i + 3] + 1] = getVal7(args, i + 1, mode1) == getVal7(args, i + 2, mode2) ? 1 : 0
             i += 4
         else
-            println(out, "Whoops")
+            println("Whoops")
             break
         end
     end

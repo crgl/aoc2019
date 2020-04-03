@@ -70,7 +70,7 @@ function runProgram9(args, input, output)
             base += getVal9(args, pc + 1, mode1, base)
             pc += 2
         else
-            println(out, "Whoops")
+            println("Whoops")
             break
         end
     end
